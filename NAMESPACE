@@ -1,0 +1,7 @@
+export(runApps)
+import(datareadR)
+import(ggthemes)
+import(iPlot)
+import(shiny)
+import(sparkle)
+import(xtable)
