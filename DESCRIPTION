@@ -6,12 +6,13 @@ Version: 0.1
 Author: Love Hansson, Thomas Reinholdsson
 Maintainer: Love Hansson <love.hansson@pensionsmyndigheten.se>
 Depends:
-    R (>= 3.0.0)
+    datareadR,
+    iPlot
 License: AGPLv3
 LazyData: true
-Depends:
-   datareadR,
-   iPlot
 Collate:
     'sliver-package.r'
-    'app.R'
+    'actionButton2.R'
+    'readData.R'
+    'readGUI.R'
+    'sliver.R'

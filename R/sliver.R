@@ -1,8 +1,7 @@
-#' runApps
+#' sliver
 #' 
-#' ...
+#' Run an interface for uploading data to R, and then run iPlot or return the data as a data.table
 #' 
-#' @import datareadR
 #' @import iPlot
 #' @import shiny
 #' @import sparkle
@@ -10,7 +9,7 @@
 #' @import xtable
 #' @export
 
-runApps <- function() {
+sliver <- function() {
    obj <- readGUI()
    if(class(obj) == "iData") {
       iPlot(obj)
