@@ -6,7 +6,6 @@ Version: 0.1
 Author: Love Hansson, Thomas Reinholdsson
 Maintainer: Love Hansson <love.hansson@pensionsmyndigheten.se>
 Depends:
-    datareadR,
     iPlot
 License: AGPLv3
 LazyData: true

@@ -16,11 +16,11 @@ readGUI <- function(...,verbose=FALSE) {
          ## UI -----------------------------------------------------------------
          ui = bootstrapPage(
             ## HEAD
-#             includeCSS(system.file("css/bootstrap.css",package="datareadR")),
-#             includeCSS(system.file("css/styles.css",package="datareadR")),
+            includeCSS(system.file("css/bootstrap.css",package="sliver")),
+            includeCSS(system.file("css/styles.css",package="sliver")),
          
-            includeCSS("inst/www/bootstrap.css"),
-            includeCSS("inst/www/styles.css"),
+#             includeCSS("inst/www/bootstrap.css"),
+#             includeCSS("inst/www/styles.css"),
             
             ## Empty first row
             div(class='row',tags$p(tags$br(),tags$br())),
@@ -30,7 +30,7 @@ readGUI <- function(...,verbose=FALSE) {
                   class="span4", tags$p(tags$br())
                ),
                div(
-                  class="span8", h1("datareadR - en applikation för dataimport i R")
+                  class="span8", h1("sliver - en applikation för dataimport i R")
                )
             ),
             
