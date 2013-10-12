@@ -88,7 +88,7 @@ readGUI <- function(...,verbose=FALSE) {
                input$go
                
                path <- isolate(input$fil1$datapath)
-               path <- str_replace_all(path,"/","\\\\")
+#                path <- str_replace_all(path,"/","\\\\")
                
                localData <<- iPlot:::iData(readData(isolate(path),filetype="csv"))
                

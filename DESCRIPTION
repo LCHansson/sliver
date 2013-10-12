@@ -6,7 +6,10 @@ Version: 0.1
 Author: Love Hansson, Thomas Reinholdsson
 Maintainer: Love Hansson <love.hansson@pensionsmyndigheten.se>
 Depends:
-    iPlot
+    iPlot,
+    xtable,
+    stringr,
+    data.table
 License: AGPLv3
 LazyData: true
 Collate:
